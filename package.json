@@ -1,9 +1,10 @@
 {
   "type": "module",
   "scripts": {
-    "test": "tsc; mocha ./**.test.js"
+    "test": "tsc; mocha *.test.js"
   },
   "dependencies": {
+    "@mistralai/mistralai": "^1.10.0",
     "mocha": "^11.7.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"

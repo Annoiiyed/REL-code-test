@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "tsc; mocha ./**.test.js"
+  },
+  "dependencies": {
+    "mocha": "^11.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1"
+  }
+}
